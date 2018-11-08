@@ -12,6 +12,8 @@
 		698AF1082193E991005AB5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698AF1062193E991005AB5F9 /* Main.storyboard */; };
 		698AF10A2193E992005AB5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 698AF1092193E992005AB5F9 /* Assets.xcassets */; };
 		698AF10D2193E992005AB5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698AF10B2193E992005AB5F9 /* LaunchScreen.storyboard */; };
+		698AF1152193EA0E005AB5F9 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698AF1142193EA0E005AB5F9 /* ContactCell.swift */; };
+		698AF1172193EA3C005AB5F9 /* ExpandableNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698AF1162193EA3C005AB5F9 /* ExpandableNames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		698AF1092193E992005AB5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		698AF10C2193E992005AB5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		698AF10E2193E992005AB5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698AF1142193EA0E005AB5F9 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		698AF1162193EA3C005AB5F9 /* ExpandableNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				698AF1022193E991005AB5F9 /* AppDelegate.swift */,
 				698AF1042193E991005AB5F9 /* ViewController.swift */,
+				698AF1142193EA0E005AB5F9 /* ContactCell.swift */,
+				698AF1162193EA3C005AB5F9 /* ExpandableNames.swift */,
 				698AF1062193E991005AB5F9 /* Main.storyboard */,
 				698AF1092193E992005AB5F9 /* Assets.xcassets */,
 				698AF10B2193E992005AB5F9 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698AF1172193EA3C005AB5F9 /* ExpandableNames.swift in Sources */,
+				698AF1152193EA0E005AB5F9 /* ContactCell.swift in Sources */,
 				698AF1052193E991005AB5F9 /* ViewController.swift in Sources */,
 				698AF1032193E991005AB5F9 /* AppDelegate.swift in Sources */,
 			);
